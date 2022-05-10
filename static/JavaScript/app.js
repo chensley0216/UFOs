@@ -15,4 +15,23 @@ function doubleAddition(c, d) {
     return total;
   }
 
-  
+  // Converted to an arrow function
+addition = (a, b) => a + b;
+
+let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
+
+function listLoop(userList) {
+    for (var i = 0; i < userList.length; i++) {
+      console.log(userList[i]);
+    }
+ }
+
+ var vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+
+for (var i = 0; i < vegetables.length; i++) {
+    console.log("I love " + vegetables[i]);
+}
+
+for (var i = 0; i < 5; i++) {
+    console.log("I am " + i);
+ }
