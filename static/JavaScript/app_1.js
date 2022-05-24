@@ -35,7 +35,7 @@ for (var i = 0; i < vegetables.length; i++) {
 for (var i = 0; i < 5; i++) {
     console.log("I am " + i);
  }
-
+ 
  function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
